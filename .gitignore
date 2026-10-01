@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Java / Maven (Cucumber-JVM)
+target/
+*.class
+
+# Node (Playwright)
+node_modules/
+test-results/
+playwright-report/
+
+# Oracle / Docker local data
+oradata/
+
+# Secrets
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local working notes for Claude (contains private context)
+CLAUDE.md
