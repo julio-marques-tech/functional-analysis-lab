@@ -32,12 +32,12 @@ de execução (Oracle, Cucumber, Playwright).
 
 | Dia | Foco |
 |---|---|
-| Qui 1 e Sex 2 out | 01 · Modelação de dados |
-| Sáb 3 out | 02 · Arquitetura de dados |
-| Dom 4 out | 03 · Engenharia de requisitos + 04 · Playbook |
-| Seg 5 out (feriado) | 05 · Metodologias e controlo de versões + 06 · Oracle e SQL |
-| Ter 6 out | 07 · BDD (Cucumber, Playwright) + 08 · Simulação final |
-| Qua 7 out | Revisão leve |
+| 1 a 8 out | 01 · Modelação de dados: DER conceptual e normalização (1FN–3FN) |
+| Qui 8 out (noite) | 01 · FNBC e desnormalização |
+| Sex 9 out | 02 · Arquitetura de dados |
+| Sáb 10 out (dia inteiro) | 03 · Engenharia de requisitos + 04 · Playbook de análise (casos com tempo) |
+| Dom 11 out (dia inteiro) | 05 · Metodologias e controlo de versões + 06 · Oracle e SQL + 07 · BDD (Cucumber, Playwright) + 08 · Simulação completa |
+| Seg 12 out (manhã) | Revisão das respostas prontas |
 
-Os módulos 01 a 04 são prioritários. Se o tempo apertar, a parte prática de 06 e 07 continua
-depois, sem pressa.
+A ordem é por prioridade: os módulos 01 a 04 primeiro. Se algum dia derrapar, a parte
+prática de 06 e 07 é a que passa para depois.
