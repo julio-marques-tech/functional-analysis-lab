@@ -36,3 +36,21 @@ passos reutilizados, ciclo verde/vermelho e execução filtrada por tags. Detalh
 - Confundir relacionamento recursivo com N:M: são dimensões independentes (tabela 2×2 no DER)
 - Dependências funcionais por intuição: resolvido testando nos dados e procurando
   contraexemplos
+
+## 02 · Arquitetura de dados
+
+**Estado:** concluído, primeira passagem (2026-10-09 a 2026-10-10).
+
+**Feito:** [resumo do módulo](02-data-architecture/arquitetura-de-dados.md): OLTP vs OLAP,
+ODS / data warehouse / data mart, modelo em estrela (factos, dimensões, granularidade, DIM_TEMPO),
+floco de neve, SCD tipos 1 a 3, Inmon vs Kimball, ETL vs ELT, data lake e lakehouse (camadas
+bronze, silver, gold).
+
+**Dificuldades e como foram resolvidas:**
+- Cardinalidade na estrela: o "centro" do desenho não decide quem é o lado "muitos"; é a fact,
+  que tem uma linha por evento. Regra: `||` na dimensão, `o{` na fact
+- SCD2: a dimensão cresce ao ritmo das mudanças, não das transações (exercício com 3 linhas na
+  dimensão e 262 na fact)
+- Colunas de auditoria do transacional não pertencem a uma DIM_TEMPO, que é um calendário
+- ETL vs ELT decide-se por onde corre a transformação, não pela ferramenta
+

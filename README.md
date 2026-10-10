@@ -18,7 +18,7 @@ problema de negócio → análise → modelo conceptual → lógico → físico 
 |---|---|---|
 | — | [Caso de estudo](case-study/) | Em curso |
 | 01 | [Modelação de dados](01-data-modeling/): DER conceptual, normalização (1FN–FNBC), desnormalização | Concluído |
-| 02 | [Arquitetura de dados](02-data-architecture/): OLTP/OLAP, ODS, data warehouse, data lake, ETL/ELT | Por começar |
+| 02 | [Arquitetura de dados](02-data-architecture/): OLTP/OLAP, ODS, data warehouse, estrela, SCD, data lake, ETL/ELT | Concluído |
 | 03 | [Engenharia de requisitos](03-requirements-engineering/): levantamento, requisitos de dados, UC, user stories, UML/BPMN | Por começar |
 | 04 | [Playbook de análise](04-analysis-playbook/): como abordar um problema ou cenário | Por começar |
 | 05 | [Metodologias e controlo de versões](05-methodologies-version-control/): Waterfall, Agile, priorização, Git, SVN | Por começar |
